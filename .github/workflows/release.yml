@@ -1,0 +1,24 @@
+name: Create Release Asset
+
+on:
+    release:
+        types: [published]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout the code
+              uses: actions/checkout@v3
+
+            - name: Set up release version environment variable
+              run: echo "RELEASE_VERSION=${{ github.event.release.tag_name }}" >> $GITHUB_ENV
+
+            - name: Zip the src folder
+              run: cd src && zip -r show-passwords-${{ env.RELEASE_VERSION }}.zip .
+
+            - name: Upload release asset
+              uses: softprops/action-gh-release@v2
+              with:
+                  files: ./src/show-passwords-${{ env.RELEASE_VERSION }}.zip
