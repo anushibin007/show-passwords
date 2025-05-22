@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
 					<div className="md:w-1/2">
 						<div className="bg-white p-4 rounded-xl shadow-lg">
 							<img
-								src="https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+								src="/hero-image.jpg"
 								alt="Password reveal demonstration"
 								className="w-full h-auto rounded-lg"
 							/>
