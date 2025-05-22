@@ -13,13 +13,15 @@ const DemoSection: React.FC = () => {
 				<div className="max-w-lg mx-auto">
 					<div className="bg-purple-50 p-8 rounded-xl shadow-md space-y-8">
 						{/* Step 1: Get the Extension */}
-						<div className="text-center">
+						<div>
 							<h3 className="text-xl font-semibold mb-4">1. Get the Extension</h3>
+						</div>
+						<div className="text-center">
 							<a
 								href="https://chromewebstore.google.com/detail/opeefpfibopmnbappibdchlbgpdpklac?utm_source=item-share-cb"
 								target="_blank"
 								rel="noreferrer"
-								className="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-medium transition duration-200"
+								className="text-center inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-medium transition duration-200"
 							>
 								<BrowserIcons />
 								Add to Chrome/Edge
@@ -40,7 +42,7 @@ const DemoSection: React.FC = () => {
 						</div>
 
 						{/* Step 3: Click the Icon */}
-						<div className="text-center">
+						<div>
 							<h3 className="text-xl font-semibold mb-4">
 								3. Click the Extension Icon
 							</h3>
