@@ -49,20 +49,21 @@ const Footer: React.FC = () => {
 							<ul className="space-y-2">
 								<li>
 									<a
-										href="#"
+										href="https://github.com/anushibin007/show-passwords/blob/master/chrome-dev-store/privacy-policy.md"
 										className="text-gray-400 hover:text-white transition"
+										target="_blank"
 									>
 										Privacy Policy
 									</a>
 								</li>
-								<li>
+								{/* <li>
 									<a
 										href="#"
 										className="text-gray-400 hover:text-white transition"
 									>
 										Terms of Use
 									</a>
-								</li>
+								</li> */}
 							</ul>
 						</div>
 					</div>
@@ -73,11 +74,15 @@ const Footer: React.FC = () => {
 						&copy; {new Date().getFullYear()} Show Password Fields. All rights reserved.
 					</p>
 					<div className="flex space-x-4">
-						<a href="#" className="text-gray-400 hover:text-white transition">
+						{/* <a href="#" className="text-gray-400 hover:text-white transition">
 							Contact Us
 						</a>
-						<span className="text-gray-600">|</span>
-						<a href="#" className="text-gray-400 hover:text-white transition">
+						<span className="text-gray-600">|</span> */}
+						<a
+							href="https://github.com/anushibin007/show-passwords/issues"
+							className="text-gray-400 hover:text-white transition"
+							target="_blank"
+						>
 							Report an Issue
 						</a>
 					</div>
