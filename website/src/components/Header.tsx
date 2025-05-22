@@ -14,12 +14,20 @@ const Header: React.FC = () => {
 				</div>
 				<nav>
 					<ul className="flex space-x-6">
-						<li>
+						{/* <li>
 							<a
 								href="#how-it-works"
 								className="text-gray-600 hover:text-purple-600 transition duration-200"
 							>
 								How It Works
+							</a>
+						</li> */}
+						<li>
+							<a
+								href="#demo"
+								className="text-gray-600 hover:text-purple-600 transition duration-200"
+							>
+								Try It
 							</a>
 						</li>
 						<li>
@@ -32,10 +40,10 @@ const Header: React.FC = () => {
 						</li>
 						<li>
 							<a
-								href="#demo"
+								href="#compare"
 								className="text-gray-600 hover:text-purple-600 transition duration-200"
 							>
-								Try It
+								Compare
 							</a>
 						</li>
 						<li>

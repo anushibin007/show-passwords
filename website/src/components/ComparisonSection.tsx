@@ -36,7 +36,7 @@ const ComparisonSection: React.FC = () => {
 	];
 
 	return (
-		<section className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
+		<section id="compare" className="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
 			<div className="container mx-auto px-4">
 				<h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16">
 					Why It's Better Than Other Tools

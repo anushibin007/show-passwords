@@ -36,9 +36,9 @@ function App() {
 			<Header />
 			<main>
 				<HeroSection />
-				<HowItWorks />
-				<FeaturesSection />
+				{/* <HowItWorks /> */}
 				<DemoSection />
+				<FeaturesSection />
 				<ComparisonSection />
 				<AboutSection />
 			</main>
