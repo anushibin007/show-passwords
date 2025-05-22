@@ -1,13 +1,13 @@
 import React from "react";
-import { EyeIcon } from "lucide-react";
 import BrowserIcons from "./BrowserIcons";
+import AppIcon from "./AppIcon";
 
 const Header: React.FC = () => {
 	return (
 		<header className="sticky top-0 bg-white/80 backdrop-blur-sm z-10 shadow-sm">
 			<div className="container mx-auto px-4 py-4 flex justify-between items-center">
 				<div className="flex items-center gap-2">
-					<EyeIcon className="h-6 w-6 text-purple-600" />
+					<AppIcon />
 					<span className="font-semibold text-lg text-gray-800">
 						Show Password Fields
 					</span>

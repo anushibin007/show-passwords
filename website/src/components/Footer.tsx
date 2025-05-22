@@ -1,5 +1,5 @@
 import React from "react";
-import { EyeIcon } from "lucide-react";
+import AppIcon from "./AppIcon";
 
 const Footer: React.FC = () => {
 	return (
@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
 				<div className="flex flex-col md:flex-row justify-between items-center">
 					<div className="mb-8 md:mb-0">
 						<div className="flex items-center gap-2 mb-4">
-							<EyeIcon className="h-6 w-6 text-purple-400" />
+							<AppIcon />
 							<span className="font-semibold text-xl">Show Password Fields</span>
 						</div>
 						<p className="text-gray-400 max-w-md">
