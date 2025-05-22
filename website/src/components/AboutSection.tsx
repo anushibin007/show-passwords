@@ -22,7 +22,7 @@ const AboutSection: React.FC = () => {
 						<p className="text-purple-600 mb-4">Developer</p>
 						<p className="text-gray-600 mb-6">
 							Software engineer passionate about creating tools that simplify everyday
-							tasks for users.
+							tasks for users
 						</p>
 						<a
 							href="https://www.linkedin.com/in/divyamahankali29/"
@@ -47,7 +47,7 @@ const AboutSection: React.FC = () => {
 						<p className="text-purple-600 mb-4">Publisher</p>
 						<p className="text-gray-600 mb-6">
 							Digital product specialist with a focus on creating privacy-friendly
-							browser tools.
+							browser tools
 						</p>
 						<a
 							href="https://www.linkedin.com/in/anushibinj/"
