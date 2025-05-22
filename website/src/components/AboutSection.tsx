@@ -38,7 +38,7 @@ const AboutSection: React.FC = () => {
 					<div className="bg-purple-50 p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 text-center">
 						<div className="w-24 h-24 mx-auto mb-6 overflow-hidden rounded-full border-4 border-white shadow-md">
 							<img
-								src="/shibin-dp.jpeg"
+								src="shibin-dp.jpeg"
 								alt="Publisher Shibin"
 								className="w-full h-full object-cover"
 							/>

@@ -1,5 +1,4 @@
 import React from "react";
-import BrowserIcons from "./BrowserIcons";
 
 const AppIcon: React.FC = () => {
 	return (

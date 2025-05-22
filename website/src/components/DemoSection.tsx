@@ -46,7 +46,7 @@ const DemoSection: React.FC = () => {
 							</h3>
 							<div className="bg-white p-4 rounded-lg shadow-sm">
 								<img
-									src="/extension-click.gif"
+									src="extension-click.gif"
 									alt="Extension icon in browser toolbar"
 									className="w-full h-auto rounded-lg"
 								/>
