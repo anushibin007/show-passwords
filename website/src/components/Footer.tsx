@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
 							<ul className="space-y-2">
 								<li>
 									<a
-										href="https://chrome.google.com/webstore"
+										href="https://chromewebstore.google.com/detail/opeefpfibopmnbappibdchlbgpdpklac?utm_source=item-share-cb"
 										target="_blank"
 										rel="noreferrer"
 										className="text-gray-400 hover:text-white transition"

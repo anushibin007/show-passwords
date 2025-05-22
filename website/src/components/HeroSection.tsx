@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
 						</p>
 						<div className="flex flex-wrap gap-4">
 							<a
-								href="https://chrome.google.com/webstore"
+								href="https://chromewebstore.google.com/detail/opeefpfibopmnbappibdchlbgpdpklac?utm_source=item-share-cb"
 								target="_blank"
 								rel="noreferrer"
 								className="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-medium transition duration-200"

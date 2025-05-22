@@ -49,7 +49,7 @@ const Header: React.FC = () => {
 					</ul>
 				</nav>
 				<a
-					href="https://chrome.google.com/webstore"
+					href="https://chromewebstore.google.com/detail/opeefpfibopmnbappibdchlbgpdpklac?utm_source=item-share-cb"
 					target="_blank"
 					rel="noreferrer"
 					className="hidden md:inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-full font-medium transition duration-200"
