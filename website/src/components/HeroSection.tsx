@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => {
 				<div className="flex flex-col md:flex-row items-center">
 					<div className="md:w-1/2 mb-10 md:mb-0">
 						<h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-							🔍 One-Click to Reveal Passwords on Any Site
+							One-Click to Reveal Passwords on Any Site
 						</h1>
 						<p className="text-xl text-gray-600 mb-8 max-w-lg">
 							Show Password Fields is a lightweight extension that makes all password
