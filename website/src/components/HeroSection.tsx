@@ -1,5 +1,4 @@
 import React from "react";
-import { EyeIcon } from "lucide-react";
 import BrowserIcons from "./BrowserIcons";
 
 const HeroSection: React.FC = () => {
