@@ -3,12 +3,6 @@ import { Eye, EyeOff } from "lucide-react";
 import BrowserIcons from "./BrowserIcons";
 
 const DemoSection: React.FC = () => {
-	const [showPassword, setShowPassword] = useState(false);
-
-	const togglePasswordVisibility = () => {
-		setShowPassword(!showPassword);
-	};
-
 	return (
 		<section id="demo" className="py-20 bg-white">
 			<div className="container mx-auto px-4">
@@ -37,22 +31,11 @@ const DemoSection: React.FC = () => {
 							<h3 className="text-xl font-semibold mb-4">2. Enter a Password</h3>
 							<div className="relative">
 								<input
-									type={showPassword ? "text" : "password"}
+									type="password"
 									id="try-password"
 									placeholder="Enter a password"
 									className="w-full p-4 border border-gray-300 rounded-lg text-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
 								/>
-								<button
-									type="button"
-									className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-purple-600 transition"
-									onClick={togglePasswordVisibility}
-								>
-									{showPassword ? (
-										<EyeOff className="h-5 w-5" />
-									) : (
-										<Eye className="h-5 w-5" />
-									)}
-								</button>
 							</div>
 						</div>
 
@@ -63,7 +46,7 @@ const DemoSection: React.FC = () => {
 							</h3>
 							<div className="bg-white p-4 rounded-lg shadow-sm">
 								<img
-									src="https://images.pexels.com/photos/5473337/pexels-photo-5473337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									src="/extension-click.gif"
 									alt="Extension icon in browser toolbar"
 									className="w-full h-auto rounded-lg"
 								/>
