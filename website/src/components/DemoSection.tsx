@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
+import BrowserIcons from "./BrowserIcons";
 
 const DemoSection: React.FC = () => {
 	const [showPassword, setShowPassword] = useState(false);
@@ -26,18 +27,7 @@ const DemoSection: React.FC = () => {
 								rel="noreferrer"
 								className="inline-flex items-center bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-medium transition duration-200"
 							>
-								<div className="flex items-center gap-2 mr-2">
-									<img
-										src="https://www.google.com/chrome/static/images/chrome-logo.svg"
-										alt="Chrome"
-										className="w-5 h-5"
-									/>
-									<img
-										src="https://edgestatic.azureedge.net/welcome/static/favicon.ico"
-										alt="Edge"
-										className="w-5 h-5"
-									/>
-								</div>
+								<BrowserIcons />
 								Add to Chrome/Edge
 							</a>
 						</div>
