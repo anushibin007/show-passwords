@@ -13,7 +13,7 @@ const AboutSection: React.FC = () => {
 					<div className="bg-purple-50 p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 text-center">
 						<div className="w-24 h-24 mx-auto mb-6 overflow-hidden rounded-full border-4 border-white shadow-md">
 							<img
-								src="https://images.pexels.com/photos/5792901/pexels-photo-5792901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+								src="divya-dp.jpeg"
 								alt="Developer Divya M"
 								className="w-full h-full object-cover"
 							/>
@@ -25,7 +25,7 @@ const AboutSection: React.FC = () => {
 							tasks for users.
 						</p>
 						<a
-							href="https://www.linkedin.com/in/divya-m"
+							href="https://www.linkedin.com/in/divyamahankali29/"
 							target="_blank"
 							rel="noreferrer"
 							className="inline-flex items-center text-gray-700 hover:text-purple-600 transition-colors"
@@ -38,19 +38,19 @@ const AboutSection: React.FC = () => {
 					<div className="bg-purple-50 p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 text-center">
 						<div className="w-24 h-24 mx-auto mb-6 overflow-hidden rounded-full border-4 border-white shadow-md">
 							<img
-								src="https://images.pexels.com/photos/1040881/pexels-photo-1040881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+								src="/shibin-dp.jpeg"
 								alt="Publisher Shibin"
 								className="w-full h-full object-cover"
 							/>
 						</div>
-						<h3 className="text-xl font-semibold mb-2">Shibin</h3>
+						<h3 className="text-xl font-semibold mb-2">Shibin J</h3>
 						<p className="text-purple-600 mb-4">Publisher</p>
 						<p className="text-gray-600 mb-6">
 							Digital product specialist with a focus on creating privacy-friendly
 							browser tools.
 						</p>
 						<a
-							href="https://www.linkedin.com/in/shibin"
+							href="https://www.linkedin.com/in/anushibinj/"
 							target="_blank"
 							rel="noreferrer"
 							className="inline-flex items-center text-gray-700 hover:text-purple-600 transition-colors"
