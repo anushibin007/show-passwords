@@ -19,7 +19,7 @@ const AboutSection: React.FC = () => {
 							/>
 						</div>
 						<h3 className="text-xl font-semibold mb-2">Divya M</h3>
-						<p className="text-purple-600 mb-4">Developer</p>
+						<p className="text-purple-600 mb-4">Creator, Designer & Developer</p>
 						<p className="text-gray-600 mb-6">
 							Software engineer passionate about creating tools that simplify everyday
 							tasks for users
