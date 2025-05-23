@@ -3,9 +3,15 @@
   "name": "Show Password Fields",
   "version": "1.0.1",
   "description": "One-click to reveal passwords on any site",
-  "permissions": ["scripting", "activeTab"],
+  "permissions": ["scripting", "activeTab", "contextMenus"],
   "action": {
-    "default_title": "Reveal Passwords"
+    "default_title": "Reveal Passwords",
+    "default_icon": {
+      "16": "icons/closed/icon16.png",
+      "32": "icons/closed/icon32.png",
+      "48": "icons/closed/icon48.png",
+      "128": "icons/closed/icon128.png"
+    }
   },
   "background": {
     "service_worker": "background.js"
@@ -15,5 +21,14 @@
     "32": "icons/closed/icon32.png",
     "48": "icons/closed/icon48.png",
     "128": "icons/closed/icon128.png"
+  },
+  "commands": {
+    "toggle-passwords": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "Toggle password visibility"
+    }
   }
 }

@@ -36,3 +36,34 @@ chrome.runtime.onMessage.addListener((message, sender) => {
     }
   }
 });
+chrome.commands.onCommand.addListener((command) => {
+  if (command === "toggle-passwords") {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      if (tabs[0]) {
+        chrome.scripting.executeScript({
+          target: { tabId: tabs[0].id },
+          files: ["content.js"],
+        });
+      }
+    });
+  }
+});
+
+chrome.runtime.onInstalled.addListener(() => {
+  chrome.contextMenus.create({
+    id: "open-popup",
+    title: "Set your own Keyboard Shortcut",
+    contexts: ["action"],
+  });
+});
+
+chrome.contextMenus.onClicked.addListener((info, tab) => {
+  if (info.menuItemId === "open-popup") {
+    chrome.windows.create({
+      url: chrome.runtime.getURL("popup.html"),
+      type: "popup",
+      width: 300,
+      height: 400,
+    });
+  }
+});
