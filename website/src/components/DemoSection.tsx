@@ -53,8 +53,8 @@ const DemoSection: React.FC = () => {
 								/>
 							</div>
 							<p className="text-sm text-gray-500 mt-4">
-								Click the extension icon in your browser's toolbar to toggle ALL
-								password fields on the page at once!
+								Click the extension icon in your browser's toolbar to toggle the
+								password field between plain text and masked text.
 							</p>
 						</div>
 					</div>
