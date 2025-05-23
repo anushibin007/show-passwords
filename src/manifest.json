@@ -1,19 +1,19 @@
 {
-	"manifest_version": 3,
-	"name": "Show Password Fields",
-	"version": "1.0.1",
-	"description": "One-click to reveal passwords on any site",
-	"permissions": ["scripting", "activeTab"],
-	"action": {
-		"default_title": "Reveal Passwords"
-	},
-	"background": {
-		"service_worker": "background.js"
-	},
-	"icons": {
-		"16": "icons/icon16.png",
-		"32": "icons/icon32.png",
-		"48": "icons/icon48.png",
-		"128": "icons/icon128.png"
-	}
+  "manifest_version": 3,
+  "name": "Show Password Fields",
+  "version": "1.0.1",
+  "description": "One-click to reveal passwords on any site",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_title": "Reveal Passwords"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/closed/icon16.png",
+    "32": "icons/closed/icon32.png",
+    "48": "icons/closed/icon48.png",
+    "128": "icons/closed/icon128.png"
+  }
 }
