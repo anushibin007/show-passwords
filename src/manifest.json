@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "Show Password Fields",
 	"version": "1.0",
-	"description": "Changes all password input fields to text.",
+	"description": "One-click to reveal passwords on any site",
 	"permissions": ["scripting", "activeTab"],
 	"action": {
 		"default_title": "Reveal Passwords"
