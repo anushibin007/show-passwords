@@ -55,6 +55,11 @@ chrome.runtime.onInstalled.addListener(() => {
     title: "Set your own Keyboard Shortcut",
     contexts: ["action"],
   });
+  chrome.contextMenus.create({
+    id: "about",
+    title: "Learn more 👀",
+    contexts: ["action"],
+  });
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
@@ -65,5 +70,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
       width: 300,
       height: 400,
     });
+  } else if (info.menuItemId === "about") {
+    chrome.tabs.create({ url: "https://app.fastorial.dev/show-passwords/" });
   }
 });
