@@ -25,8 +25,8 @@
   "commands": {
     "toggle-passwords": {
       "suggested_key": {
-        "default": "Ctrl+Shift+L",
-        "mac": "Command+Shift+L"
+        "default": "Alt+Shift+P",
+        "mac": "Alt+Shift+P"
       },
       "description": "Toggle password visibility"
     }
